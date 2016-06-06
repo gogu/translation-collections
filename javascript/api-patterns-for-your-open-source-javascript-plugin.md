@@ -1,6 +1,6 @@
 # JavaScript 插件开源项目 API 设计
 
-作者 BRYAN BRAUN 原载 https://seesparkbox.com/foundry/api_patterns_for_your_open_source_javascript_plugin
+> 作者 BRYAN BRAUN 原载 https://seesparkbox.com/foundry/api_patterns_for_your_open_source_javascript_plugin
 
 我最近刚为我的 JavaScript 开源项目 1.0 版本重构了代码。这些代码一开始挤在一个全局函数里，但过不了多久就已经显得不够我添加功能了。我需要搞得好点。
 
