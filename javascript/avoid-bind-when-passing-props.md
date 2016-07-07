@@ -24,7 +24,7 @@ var Button = React.createClass({
 });
 ```
 
-# Way #2: Calling .bind Within render (bad, ES6)
+## Way #2: Calling .bind Within render (bad, ES6)
 
 而当使用 ES6 classes 时，React 不会自动绑定成员函数。
 
