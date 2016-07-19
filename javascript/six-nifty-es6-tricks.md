@@ -48,7 +48,7 @@ arr.forEach(function (elem, index) {
 // index = 2, elem = c
 ```
 
-ES6 for-of 循环提供了 ES6 迭代（通过 iterables 和 iterators）和解构。如果你将解构和新的数组方法 entries() 结合起来，你可以：
+ES6 for-of 循环支持 ES6 迭代（通过 iterables 和 iterators）和解构。如果你将解构和新的数组方法 entries() 结合起来，你可以：
 
 ```javascript
 const arr = ['a', 'b', 'c'];
@@ -57,7 +57,7 @@ for (const [index, elem] of arr.entries()) {
 }
 ```
 
-arr.entires() 返回一个 iterable 对象包括一对索引和值。结构模式 [ index, elem ] 让我们能直接访问其每一对的组成部分。console.log() 的参数就是个所谓的模板文本，他让字符串插入 JavaScript 语句。
+arr.entires() 返回一个包括一对索引和值的 iterable 对象。[ index, elem ] 的解构方式让我们能直接访问其每一对的组成部分。console.log() 的参数就是个所谓的模板文本，他让字符串插入 JavaScript 语句。
 
 More information:
 
