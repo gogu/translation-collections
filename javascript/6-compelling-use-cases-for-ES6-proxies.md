@@ -435,3 +435,5 @@ console.log(sensitiveData.username);
 好了，这些是我知道的。我很乐意听听你在工作中使用 proxies 时有什么好点子。
 
 Happy JavaScript，如果你看到有什么是我需要修改的，请让我知道。
+
+我在学习 proxies 相关知识时重度依赖  [the ES6 spec](http://www.ecma-international.org/ecma-262/6.0/), [Nickolas Zakas' book on ES6](https://leanpub.com/understandinges6), [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy), and [Axel Rauschmayer's book on ES6](http://exploringjs.com/es6/ch_proxies.html)。感谢提供这些资源的人们。
