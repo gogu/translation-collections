@@ -16,11 +16,11 @@
 
 Proxies 在技术领域中也是一种通用范式。你或许听过某某代理服务器获取了你的所有请求/流量，代表你把它们发送的另一个目的地，然后再把响应结果返回给你。当你不希望你的流量目标知道他们的来源是哪里（比如 [nsa.gov](http://nsa.gov/)）用代理服务器会很有效。所有的目标服务器会认为请求是来自代理服务器的。
 
-这就接近本文观点了，proxies 也是一种在应用程序编程中常用的 [设计模式](https://en.wikipedia.org/wiki/Proxy_pattern)。这种 proxy接近 ES6 proxies 意图达到的，包括用 class B 包装 class A 以拦截/控制对 class A 的访问。
+这就接近本文观点了，proxies 也是一种在应用程序编程中常用的 [设计模式](https://en.wikipedia.org/wiki/Proxy_pattern)。这也接近 ES6 proxies 意图达到的，包括用 class B 包装 class A 以拦截/控制对 class A 的访问。
 
 proxy 模式一般可以使用在当你想要：
 
-- 拦截或者控制对一个对象的使用时
+- 拦截或者控制对一个对象的访问时
 - 通过掩盖程序或隐藏逻辑来降低方法/类的复杂度
 - 阻止没有经过验证/准备的重资源操作
 
